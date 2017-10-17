@@ -9,6 +9,7 @@ lazy val sparkVersion = "2.2.0"
 
 lazy val root = (project in file(".")).settings(
   commonSettings,
+  mainClass in Compile := Some("com.github.bartekdobija.core.Main"),
   libraryDependencies ++= Seq(
     "org.scalatest" %% "scalatest" % "3.0.4" % Test,
 
