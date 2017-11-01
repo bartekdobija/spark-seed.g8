@@ -8,6 +8,7 @@ class Application(private val conf: AppConf) {
   def run(): Unit = {
     val spark = conf.spark
     import spark.implicits._
+
     val ds = spark.createDataset(List(1,2,3))
 
 
