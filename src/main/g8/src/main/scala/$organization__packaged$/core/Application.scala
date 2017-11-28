@@ -1,4 +1,4 @@
-package com.github.bartekdobija.core
+package $organization$.core
 
 object Application {
   def apply(conf: AppConf): Application = new Application(conf)

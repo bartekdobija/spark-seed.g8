@@ -1,15 +1,15 @@
 lazy val commonSettings = Seq(
   version := "0.1",
-  organization := "com.github.bartekdobija",
+  organization := "$organization$",
   scalaVersion := "2.11.8",
-  name := "spark-template"
+  name := "$name$"
 )
 
-lazy val sparkVersion = "2.2.0"
+lazy val sparkVersion = "2.2.+"
 
-lazy val root = (project in file(".")).settings(
+lazy val sparkapp = (project in file(".")).settings(
   commonSettings,
-  mainClass in Compile := Some("com.github.bartekdobija.core.Main"),
+  mainClass in Compile := Some("$organization$.core.Main"),
   libraryDependencies ++= Seq(
     "org.scalatest" %% "scalatest" % "3.0.4" % Test,
 

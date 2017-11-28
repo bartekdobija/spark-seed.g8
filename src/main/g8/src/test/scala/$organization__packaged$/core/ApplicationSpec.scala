@@ -1,6 +1,6 @@
-package com.github.bartekdobija.core
+package $organization$.core
 
-import com.github.bartekdobija.SparkSpec
+import $organization$.SparkSpec
 
 class ApplicationSpec extends SparkSpec {
 

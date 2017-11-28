@@ -1,4 +1,4 @@
-package com.github.bartekdobija
+package $organization$
 
 import org.apache.spark.sql.SparkSession
 import org.scalatest.{BeforeAndAfterAll, FlatSpec, Matchers}
